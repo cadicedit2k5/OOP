@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.company.bth2_oop;
+package BTH2;
 
 /**
  *
@@ -56,7 +56,12 @@ public class PhanSo {
     }
     
     public void hienThi() {
-        System.out.printf("%d / %d\n", this.tuSo, this.mauSo);
+        System.out.printf("%d / %d\t", this.tuSo, this.mauSo);
+    }
+    
+    @Override
+    public String toString() {
+        return this.tuSo + " / " + this.mauSo;
     }
 
     /**
