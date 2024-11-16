@@ -60,7 +60,7 @@ public class QuanLyHocVien {
     }
     
     public void sort() {
-        this.list = list.stream().sorted((var h1, var h2) -> Double.compare(h1.getAverageScore(), h2.getAverageScore().collect(toList());
+        this.list = this.list.stream().sorted((var h1, var h2) -> Double.compare(h1.getAverageScore(), h2.getAverageScore())).collect(toList());
     }
 
     public void display() {

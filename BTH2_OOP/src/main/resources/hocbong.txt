@@ -1,4 +1,1 @@
-5 - Nguyen Van Mach - 13/04/1987
-8.8	8.0	7.9	
-6 - Tran Thi Vang - 20/12/2000
-7.9	9.3	7.1	
+2 - Nguyen Van B - 8.0823801634839363 - Nguyen Van C - 8.732979244393446
