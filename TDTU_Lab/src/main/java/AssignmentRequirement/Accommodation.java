@@ -8,18 +8,22 @@ package AssignmentRequirement;
  *
  * @author ADMIN
  */
-public abstract class Accomodation {
+public abstract class Accommodation {
 
-    private int idAccomodation;
-    private String nameAccomodation;
-    private String addressAccomodation;
-    private String cityAccomodaion;
+    protected int idAccomodation;
+    protected String nameAccomodation;
+    protected String addressAccomodation;
+    protected String cityAccomodaion;
 
-    public Accomodation(int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion) {
+    public Accommodation(int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion) {
         this.idAccomodation = idAccomodation;
         this.nameAccomodation = nameAccomodation;
         this.addressAccomodation = addressAccomodation;
         this.cityAccomodaion = cityAccomodaion;
+    }
+    
+    public int compareTwoCity(Accommodation acc2) {
+        return this.cityAccomodaion.compareTo(acc2.cityAccomodaion);
     }
 
     public int getIdAccomodation() {

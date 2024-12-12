@@ -11,15 +11,15 @@ import java.util.List;
  *
  * @author ADMIN
  */
-public class CommonAccomodation extends Accomodation{
+public class CommonAccommodation extends Accommodation{
     private List<Room> rooms = new ArrayList<>();
     private float coeffRating;
 
-    public CommonAccomodation(float coeffRating, int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion) {
+    public CommonAccommodation(int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion, float coeffRating) {
         super(idAccomodation, nameAccomodation, addressAccomodation, cityAccomodaion);
         this.coeffRating = coeffRating;
     }
-    public CommonAccomodation(float coeffRating, List<Room> rooms, int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion) {
+    public CommonAccommodation(int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion, ArrayList<Room> rooms, float coeffRating) {
         super(idAccomodation, nameAccomodation, addressAccomodation, cityAccomodaion);
         this.coeffRating = coeffRating;
         this.rooms = rooms;

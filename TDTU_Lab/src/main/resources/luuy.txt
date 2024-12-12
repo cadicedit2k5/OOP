@@ -1,0 +1,40 @@
+Accomodation
+Thuộc tính 1: int - mã số định danh của nơi lưu trú
+● Thuộc tính 2: String - tên của nơi lưu trú
+● Thuộc tính 3: String - số nhà và tên đường của nơi lưu trú
+● Thuộc tính 4: String - thành phố nơi lưu trú tọa lạc
+Thuộc tính 5: ArrayList<Room> Danh sách các phòng trong nơi lưu trú
+● Thuộc tính 6: float - Hệ số đánh giá nơi lưu trú
+Thuộc tính 7: int - Số sao thể hiện chất lượng của khu nghỉ mát
+● Thuộc tính 8: boolean - Có phục vụ bể bơi cá nhân không (true là có,
+false là không).
+
+-Hotel
+Thuộc tính 07: int - Số sao chất lượng dich vụ của khách sạn
+
+
+LuxuryAccomodation
+Thuộc tính 5: boolean - Có phục vụ bể bơi cá nhân không (true là có,
+false là không)
+● Thuộc tính 6: boolean - Có phục vụ thức uống chào mừng không (true
+là có, false là không)
+● Thuộc tính 7: boolean - Có phục vụ miễn phí bữa sáng không (true là
+có, false là không)
+● Thuộc tính 8: boolean - Có phục vụ phòng thể hình không (true là có,
+false là không)
+● Thuộc tính 9: int - Số lượng người tối đa có thể phục vụ
+● Thuộc tính 10: int - Chi phí cho một đêm
+
+-CruiseShip
+    Thuộc tính 11: boolean - Có phục vụ quán bar riêng tư không (true là
+có, false là không)
+
+Room
+Thuộc tính 1: int - Mã định danh
+● Thuộc tính 2: String - Tên phòng
+● Thuộc tính 3: int - Số lượng lầu
+● Thuộc tính 4: String - Loại phòng
+● Thuộc tính 5: int - Số lượng giường
+● Thuộc tính 6: int - Số lượng người tối đa có thể lưu trú tại phòng
+● Thuộc tính 7: double - Diện tích sàn
+● Thuộc tính 8: double - Chi phí phòng một đêm

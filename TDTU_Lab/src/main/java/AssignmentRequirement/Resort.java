@@ -4,33 +4,33 @@
  */
 package AssignmentRequirement;
 
-import java.util.List;
+import java.util.ArrayList;
 
 /**
  *
  * @author ADMIN
  */
-public class Resort extends CommonAccomodation{
+public class Resort extends CommonAccommodation{
     private int ratingStar;
-    private boolean isServingSwimingPool;
+    private boolean isServingSwimmingPool;
 
-    public Resort(int ratingStar, boolean isServingSwimingPool, float coeffRating, int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion) {
-        super(coeffRating, idAccomodation, nameAccomodation, addressAccomodation, cityAccomodaion);
+    public Resort(int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion, ArrayList<Room> rooms, float coeffRating, int ratingStar, boolean isServingSwimmingPool) {
+        super(idAccomodation, nameAccomodation, addressAccomodation, cityAccomodaion, rooms, coeffRating);
         this.ratingStar = ratingStar;
-        this.isServingSwimingPool = isServingSwimingPool;
+        this.isServingSwimmingPool = isServingSwimmingPool;
     }
 
-    public Resort(int ratingStar, boolean isServingSwimingPool, float coeffRating, List<Room> rooms, int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion) {
-        super(coeffRating, rooms, idAccomodation, nameAccomodation, addressAccomodation, cityAccomodaion);
+    public Resort(int idAccomodation, String nameAccomodation, String addressAccomodation, String cityAccomodaion, float coeffRating, int ratingStar, boolean isServingSwimmingPool) {
+        super(idAccomodation, nameAccomodation, addressAccomodation, cityAccomodaion, coeffRating);
         this.ratingStar = ratingStar;
-        this.isServingSwimingPool = isServingSwimingPool;
+        this.isServingSwimmingPool = isServingSwimmingPool;
     }
     
     @Override
     public String toString() {
         return String.format("Resort [%d, %s, %d, %s, %b, %s",
-                super.getIdAccomodation(), super.getNameAccomodation(), this.ratingStar,
-                super.getAddressAccomodation(), this.isServingSwimingPool, super.getCityAccomodaion());
+                idAccomodation, nameAccomodation, this.getRatingStar(),
+                addressAccomodation, this.isServingSwimmingPool, cityAccomodaion);
     }
 
     public int getRatingStar() {
@@ -41,11 +41,13 @@ public class Resort extends CommonAccomodation{
         this.ratingStar = ratingStar;
     }
 
-    public boolean isIsServingSwimingPool() {
-        return isServingSwimingPool;
+    public boolean isIsServingSwimmingPool() {
+        return isServingSwimmingPool;
     }
 
-    public void setIsServingSwimingPool(boolean isServingSwimingPool) {
-        this.isServingSwimingPool = isServingSwimingPool;
+    public void setIsServingSwimmingPool(boolean isServingSwimmingPool) {
+        this.isServingSwimmingPool = isServingSwimmingPool;
     }
+
+    
 }
