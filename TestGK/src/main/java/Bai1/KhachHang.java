@@ -5,6 +5,8 @@
 package Bai1;
 
 import java.time.LocalDate;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -18,6 +20,13 @@ public class KhachHang {
     protected double soDu;
     
     {
+        if (dem >= 9999) {
+            try {
+                throw new Exception("Vuot qua goi han!");
+            } catch (Exception ex) {
+                Logger.getLogger(KhachHang.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
         setMaSo(String.format("KH-%04d", ++dem));
     }
 
