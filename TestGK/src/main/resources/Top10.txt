@@ -1,0 +1,45 @@
+Ma So: KH-0019
+Ten: Nguyen Minh Tuan
+Ngay Sinh: 13/01/1994
+So du: 1342000,0
+Ma So: KH-0008
+Ten: Nguyen Thi Kim
+Ngay Sinh: 30/06/1985
+So du: 1502500,0
+Ma So: KH-0001
+Ten: Nguyen Thi Mai
+Ngay Sinh: 15/03/1992
+So du: 1534268,0
+Ngay het han: 10/03/2025
+Ma So: KH-0015
+Ten: Nguyen Minh Hoang
+Ngay Sinh: 06/09/1999
+So du: 1754325,0
+Ngay het han: 17/11/2024
+Ma So: KH-0012
+Ten: Nguyen Thi Mai
+Ngay Sinh: 29/05/1987
+So du: 1883000,0
+Ma So: KH-0018
+Ten: Vu Minh Thu
+Ngay Sinh: 25/12/1991
+So du: 1900000,0
+Ma So: KH-0021
+Ten: Hoang Minh Phat
+Ngay Sinh: 17/06/1983
+So du: 2050000,0
+Ngay het han: 15/10/2025
+Ma So: KH-0006
+Ten: Hoang Thi Lan
+Ngay Sinh: 05/10/1988
+So du: 2105000,0
+Ngay het han: 12/12/2024
+Ma So: KH-0011
+Ten: Phan Thi Lan
+Ngay Sinh: 17/03/1994
+So du: 2600000,0
+Ma So: KH-0009
+Ten: Vu Minh Tu
+Ngay Sinh: 11/11/1993
+So du: 3240000,0
+Ngay het han: 25/02/2025
